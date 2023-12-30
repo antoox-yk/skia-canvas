@@ -48,9 +48,9 @@
   "binary": {
     "module_name": "index",
     "module_path": "./lib/v{napi_build_version}",
-    "remote_path": "./v{version}",
+    "remote_path": "./skia/v{version}",
     "package_name": "{platform}-{arch}-{node_napi_label}-{libc}.tar.gz",
-    "host": "https://skia-canvas.s3.us-east-1.amazonaws.com",
+    "host": "https://local-banners.s3.eu-west-1.amazonaws.com",
     "napi_versions": [
       6
     ]
